@@ -1,0 +1,1 @@
+You will find here the udev rules to interact with the HW
