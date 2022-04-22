@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "706cbf300511fc93",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2e7320ed9d58404",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "readme.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af3793ccadd83fe6",
+    "type": "split",
+    "children": [
+      {
+        "id": "af88fe6c15655c63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcb6b061828ef415",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e2c713641942da53",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "56f943e552c56c69",
+    "type": "split",
+    "children": [
+      {
+        "id": "41ba792600f34bf7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a93e702e4ae6c44c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b2e7320ed9d58404",
+  "lastOpenFiles": [
+    "readme.md",
+    "wallets/hardware/coldcard.md",
+    "wallets/watch-only/sparrow.md",
+    "wallets/watch-only/electrum.md",
+    "wallets/hardware/trezor-t.md",
+    "wallets/backups/radme.md",
+    "wallets/watch-only/readme.md",
+    "wallets/readme.md",
+    "wallets/hardware/bitbox.md",
+    "apps/3.2.sparrow-wallet.md"
+  ]
+}

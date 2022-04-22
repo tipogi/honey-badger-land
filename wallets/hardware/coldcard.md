@@ -1,4 +1,5 @@
 ## Firmware
+This is an advanced hardware wallet, first play with *trezor* and *bitbox*
 **CAUTION!**: Our ColdCard model is `mk3`. Before upgrade, check if our device has a compatible version. Go to the following URL and find the latest version:
 ```bash
 https://coldcard.com/docs/upgrade

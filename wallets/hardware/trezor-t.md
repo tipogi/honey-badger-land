@@ -51,9 +51,9 @@ Above, we say that it is not possible to hydrate with **sparrow** so, we will do
 ![[7.passphrase.png]]
 ![[8.derivation_path.png]]
 ##### Sparrow
-Now, if we want to add our wallet in `sparrow` wallet (check [[1.BitBox | BitBox manual]])
+Now, if we want to add our wallet in `sparrow` wallet (check [[bitbox | BitBox manual]])
 `File -> New Wallet -> Connected hardware Wallet -> Import -> Apply`. The only step that it changes is the 3rd one which is `connected HW`
-![[🏔 citadel/wallets/img/sparrow/trezor_hw/3.import.png]]
+![[wallets/hardware/img/sparrow/trezor_hw/3.import.png]]
 ## Delete the seed
 **This is a MUST in that HW because it can extract our seed in 15min**. To clear the seed and not keep the seed in the secure chip, run this commands
 ```bash
