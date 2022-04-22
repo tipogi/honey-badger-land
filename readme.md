@@ -10,4 +10,4 @@ First we need to clone the repository, choose a folder and run this command in t
 ```bash
 git clone https://github.com/tipogi/honey-badger-land.git
 ```
-After to preview in the way this repository is created (to see all the formating, images and links) download [Obsidian](https://obsidian.md/download). After create a new *vault* (`vault icon -> open folder as vault -> choose the location of the directory`)
+After to preview in the way this repository is created (to see all the formating, images and links) download [Obsidian](https://obsidian.md/download). After create a new *vault* (`vault icon -> open folder as vault -> choose the location of the directory`).
