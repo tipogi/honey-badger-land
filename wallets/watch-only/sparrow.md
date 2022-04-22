@@ -6,7 +6,7 @@ Open in sparrow previously created wallet, better if we use a wallet that is in 
 ![[copyKey.png]]
 `File -> New Wallet -> xPub / Watch Only Wallet`
 ![[watch-only-wallet.png]]
-Now add the `derivation path`, in our case is native segwit, m/84'/0'/0', and the `zPub`
+Now add the `derivation path`, in our case is native segwit, m/84'/0'/0', and the `zPub` that we previosly copied
 ![[details.png]]
 When the wallet is created, all the options will be blue
 ![[created.png]]
