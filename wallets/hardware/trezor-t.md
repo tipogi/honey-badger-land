@@ -37,7 +37,11 @@ $ trezorctl firmware-update -f trezor-2.4.1-bitcoinonly.bin
 
 ```
 ## Passphrase
-In **sparrow** we have an option to disable the passphare. Once we add a wallet in the application, at the bottom we have usb icon. If we navigate through that, we have toggle option. If it is active, it will disable and viceversa
+If we want to add in trezor the passphrase there are two options:
+- In **sparrow** we have an option to disable the passphare. Once we add a wallet in the application, at the bottom we have usb icon. If we navigate through that, we have toggle option. If it is active, it will disable and viceversa
+![[toggle-passphrase.png]]
+- In contrast, in **electrum**, we need to do that when we are creating new wallet. `File -> New`... and in the window that says to set a label for the device, we have a button that it says *show expert settings*. So, the proccess is click in `Show expert settings -> Enable passphrases`. If we do not check `Enable passphrases` until we wipe the seed from the device, we are not going to be able to add the passphrase in **electrum**. If that happens, you can go to sparrow and follow the above steps.
+![[enable-passphrase.png]]
 ## !Recovery
 Above, we say that it is not possible to hydrate with **sparrow** so, we will do with **electrum**:
 `File -> New -> Name -> Standard Wallet -> Use a hardware device -> Initialise device -> Passphrase -> Derivation Path`
@@ -55,7 +59,7 @@ Now, if we want to add our wallet in `sparrow` wallet (check [[bitbox | BitBox m
 `File -> New Wallet -> Connected hardware Wallet -> Import -> Apply`. The only step that it changes is the 3rd one which is `connected HW`
 ![[wallets/hardware/img/sparrow/trezor_hw/3.import.png]]
 ## Delete the seed
-**This is a MUST in that HW because it can extract our seed in 15min**. To clear the seed and not keep the seed in the secure chip, run this commands
+**This is a MUST in that HW because it can extract our seed in 15min**. Once we interact with the coins of the cold wallet, wipe the device seed. To clear the seed and not keep the seed in the secure chip, run this commands in the terminal (the device has to be unlocked with the PIN)
 ```bash
 # Make sure if the computer detects the device
 $ trezorctl ping "ahoy!"
