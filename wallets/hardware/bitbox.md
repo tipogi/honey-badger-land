@@ -34,7 +34,7 @@ If the device is switch off, plug and follow all the instructions of the device.
 2. *Connected Hardware Wallet -> Scan -> Import Keystore -> Apply*. When the left bars all of the options are blue it means that our wallet is ready to use
 ![[1.HW.png]]
 ![[2.Scan.png]]
-![[wallets/hardware/img/sparrow/bitbox_hw/3.import.png]]
+![[citadel 🏔/wallets/hardware/img/sparrow/bitbox_hw/3.import.png]]
 ![[4.apply.png]]
 ![[5.ready.png]]
 ## Delete the seed

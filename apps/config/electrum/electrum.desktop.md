@@ -1,8 +1,13 @@
-If you want electrum to appear in a Linux app launcher ("start menu" or cmd + space), install this by doing:
+If you want electrum to appear in a Linux app launcher ("start menu" or cmd + space), install this by doing, but first we need to add the xxxx.desktop file in the right path
 ```bash
 # sudo desktop-file-install electrum.desktop
 ```
-
+The onion service address (xxxx.onion) might be outdated, so we have to check in proper path, in my case, we can get from *raspibolt* `/var/lib/tor/electrs_service/hostname` or from *ronin dojo* `Credentials (5) -> Electrs (3)`
+If we want to restart the hostname, delete the folder (or renamed) and restart `tor` service
+```bash
+sudo systemctl restart tor
+```
+Now update the onion address and add `electrum.desktop` in `/usr/share/applications`
 ```bash
 [Desktop Entry]
 Comment=Lightweight Bitcoin Client connected through TOR

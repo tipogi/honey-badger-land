@@ -57,7 +57,7 @@ Above, we say that it is not possible to hydrate with **sparrow** so, we will do
 ##### Sparrow
 Now, if we want to add our wallet in `sparrow` wallet (check [[bitbox | BitBox manual]])
 `File -> New Wallet -> Connected hardware Wallet -> Import -> Apply`. The only step that it changes is the 3rd one which is `connected HW`
-![[wallets/hardware/img/sparrow/trezor_hw/3.import.png]]
+![[citadel 🏔/wallets/hardware/img/sparrow/trezor_hw/3.import.png]]
 ## Delete the seed
 **This is a MUST in that HW because it can extract our seed in 15min**. Once we interact with the coins of the cold wallet, wipe the device seed. To clear the seed and not keep the seed in the secure chip, run this commands in the terminal (the device has to be unlocked with the PIN)
 ```bash
