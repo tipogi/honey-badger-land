@@ -1,3 +1,4 @@
+# Electrum Raspibolt
 If you want electrum to appear in a Linux app launcher ("start menu" or cmd + space), install this by doing, but first we need to add the xxxx.desktop file in the right path
 ```bash
 # sudo desktop-file-install electrum.desktop
@@ -11,7 +12,7 @@ Now update the onion address and add `electrum.desktop` in `/usr/share/applicati
 ```bash
 [Desktop Entry]
 Comment=Lightweight Bitcoin Client connected through TOR
-Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum --oneserver --server 5lqeiwxhvec332cwhspcvasj3of3gk3brn5ldiotivwnei3zyrjxc5yd.onion:50002:s --proxy socks5:127.0.0.1:9050"
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum --oneserver --server onion_address.onion:50002:s --proxy socks5:127.0.0.1:9050"
 GenericName[en_US]=Bitcoin Wallet
 GenericName=Bitcoin Wallet
 Icon=electrum
