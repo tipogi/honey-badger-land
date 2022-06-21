@@ -2,8 +2,9 @@
 All the installation is made in *pop!_os 21.10*
 
 ### 🗂 Folders
-- apps: The applications that we need to secure privately our honey badger money
+- os: The applications that we need to secure privately our honey badger money
 - wallets: The tools that we need to interect with the honey badger
+- nodes: Node implementations to access to honey badger money
 
 ### Preview
 First we need to clone the repository, choose a folder and run this command in the terminal:
