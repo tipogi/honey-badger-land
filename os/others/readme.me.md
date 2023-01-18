@@ -1,0 +1,2 @@
+- `config`: Application configurations to encapsulate properly the system
+- `img`: Application screenshots to check if we configure in the right way

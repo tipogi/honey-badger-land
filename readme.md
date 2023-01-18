@@ -4,9 +4,9 @@ All the installation is made in *pop!_os 22.04 LTS*
 ![pop_os](./docs/assets/honey_badger_land.png)
 
 ### 🗂 Folders
-- `os`: The applications that we need to secure privately our honey badger money
-- `wallets`: The tools that we need to interect with the honey badger
-- `nodes`: Node implementations to access to honey badger money
+- `os`: The applications that we need to secure privately our honey badger coins
+- `wallets`: The tools that we need to receive or send the honey badger coins
+- `nodes`: Node implementations to access to honey badger coins
 
 ### Preview
 First we need to clone the repository, choose a folder and run this command in the terminal:

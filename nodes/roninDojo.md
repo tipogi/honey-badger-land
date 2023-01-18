@@ -18,5 +18,5 @@ sha256sum Manjaro-ARM-RoninOS-rpi4-*.xz
 cat Manjaro-ARM-RoninOS-rpi4-*.sha256
 ```
 ### Useful
-- `IP`: If we cannot get the IP of the node, download the `angry IP scanner` from downloads page
+- `IP`: If we cannot get the IP of the node, download the [angry IP scanner](https://angryip.org/) from downloads page
 - `User password`: Sometimes after the installation, the password of each user does not work. In that case, we can renew the password with the following command: `passwd [username]`
