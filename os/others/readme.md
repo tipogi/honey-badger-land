@@ -1,3 +1,5 @@
+# Others
+
 Change the default application configuration with our parameters
 
 - `config`: Application configurations to encapsulate properly the system
