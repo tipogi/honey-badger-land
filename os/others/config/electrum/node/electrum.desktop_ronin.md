@@ -16,7 +16,7 @@ Comment=Lightweight Bitcoin Client connected through TOR
 Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum --oneserver --server onion_address.onion:50001:t --proxy socks5:127.0.0.1:9050"
 GenericName[en_US]=Bitcoin Wallet
 GenericName=Bitcoin Wallet
-Icon=electrum
+Icon=electrum.icon
 Name[en_US]=Electrum Wallet
 Name=Electrum Wallet
 Categories=Finance;Network;

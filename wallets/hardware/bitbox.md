@@ -22,13 +22,13 @@ Once you restore the seed, you will get that message
 2.- If we do not activate the passphrase option go to `manage device` module. For more info go to above section of passpharse.
 Once we hydratate the seed close the bitbox application and unplug the bitbox from the computer. Now in our device, we have the seed in the secure element so, careful what you do now. Connect again our device and follow the instructions, now add the *passpharse* if we want to access to that wallet. If we want just the seed to create the wallet let blank the *passphrase* and accept
 **IMPORTANT!:** All the time that we unplug the device, the passphrase is deleted from device letting just the *seed* in the secure element.
-##### Electrum
+#### Electrum
 3.- Go to `electrum` and *File -> New -> Create new Wallet -> Next -> Standard Wallet -> Hardware wallet -> Derivation Path* and after follow the screen options. **NEVER! ADD THE PASSPHRASE IN THE COMPUTER, ONLY IN THE HARDWARE WALLET**
 ![[1.electrum_new_wallet.png]]
 ![[2.electrum_standard_wallet.png]]
 ![[3.electrum_hw.png]]
 ![[4.electrum_derivation_path.png]]
-##### Sparrow
+#### Sparrow
 If the device is switch off, plug and follow all the instructions of the device. If we need add the passphrase if not let blank the passphrase field and we will access to the wallet created from seed. Once we finish that and the device is unlocked:
 1. Open `sparrow` and *File -> new Wallet -> Name*. The hardware wallet has to be unlocked and added the passphrase (if need it), if not is not going to recognise the device (bitbox)
 2. *Connected Hardware Wallet -> Scan -> Import Keystore -> Apply*. When the left bars all of the options are blue it means that our wallet is ready to use
